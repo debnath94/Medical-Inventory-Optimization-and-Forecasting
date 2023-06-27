@@ -24,7 +24,7 @@ df.set_index(['Date'], inplace=True)
 
 #page configuration
 st.set_page_config(layout='centered')
-image = Image.open('E:/LiveProject/Medical_drug_forecast/Model_Deployment/download.jpg')
+image = Image.open('download.jpg')
 st.image(image)
 
 date = st.slider("Select number of dates",1,60,step = 1)
