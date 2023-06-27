@@ -1,1 +1,8 @@
-
+statsmodels
+datetime
+prophet
+streamlit
+pandas
+numpy
+matplotlib
+seaborn 
