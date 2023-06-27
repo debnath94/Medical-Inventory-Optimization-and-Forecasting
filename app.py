@@ -27,7 +27,7 @@ st.set_page_config(layout='centered')
 image = Image.open('download.jpg')
 st.image(image)
 
-date = st.slider("Select number of dates",1,60,step = 1)
+date = st.slider("Select number of dates",1,360,step = 1)
     
     
 pred = model.forecast(date)
