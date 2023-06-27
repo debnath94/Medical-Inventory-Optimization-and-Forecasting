@@ -15,10 +15,10 @@ import warnings
 warnings.filterwarnings("ignore")
 
 #load the model
-model = pickle.load(open('E:/LiveProject/Medical_drug_forecast/Model_Deployment/forecast_hw_model_new.pickle','rb'))
+model = pickle.load(open('forecast_hw_model_new.pickle','rb'))
 
 #load dataset to plot alongside predictions
-df = pd.read_csv("E:/LiveProject/Medical_drug_forecast/Model_Deployment/DayForecast.csv")
+df = pd.read_csv("DayForecast.csv")
 df['Date'] = pd.to_datetime(df['Date'])
 df.set_index(['Date'], inplace=True)
 
